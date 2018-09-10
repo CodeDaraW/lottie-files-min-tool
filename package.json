@@ -1,0 +1,43 @@
+{
+  "name": "lottie-files-min-tool",
+  "version": "0.1.3",
+  "description": "🚀 Lottie File Minify",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lottiemin": "index.js"
+  },
+  "files": [
+    "index.js",
+    "util.js"
+  ],
+  "homepage": "https://github.com/CodeDaraW/lottie-files-min-tool",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CodeDaraW/lottie-files-min-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeDaraW/lottie-files-min-tool/issues",
+    "email": "CodeDaraW@gmail.com"
+  },
+  "keywords": [
+    "lottie",
+    "minify"
+  ],
+  "author": "CodeDaraW@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "imagemin": "^6.0.0",
+    "imagemin-pngquant": "^6.0.0",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
